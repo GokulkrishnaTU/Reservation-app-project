@@ -1,0 +1,80 @@
+.searchItems{
+display: flex;
+padding: 20px;
+border: 1px solid grey;
+justify-content: space-between;
+gap: 20px;
+
+}
+
+.siTitle{
+    color: #0071c2;
+}
+
+.siTaxiOp{
+    font-size: 12px;
+    background-color: #008009;
+    color: white;
+    width: max-content;
+    border-radius: 5px;
+    height: 20px;
+    padding: 3px;
+}
+
+.slDesc{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    flex: 2;
+
+}
+
+.slDetails{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+justify-content: space-between;
+
+    
+   
+}
+
+.siRating>span{
+ font-weight: 500px;
+
+}
+
+.siRating{
+display: flex;
+justify-content: space-between;   
+   }
+   
+
+.siRating>button{
+background-color: #0071c2; 
+color: white;  
+font-weight: bold;
+border: none;
+padding: 5px;
+   }
+
+   .detialsText{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  
+   }
+
+@media screen and (max-width:850px){
+    .searchItems{
+        display: flex;
+        padding: 20px;
+        flex-direction: column;
+        border: 1px solid grey;
+        justify-content: space-between;
+        gap: 20px;
+        
+        }
+
+    
+}

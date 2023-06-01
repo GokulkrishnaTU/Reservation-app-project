@@ -1,0 +1,172 @@
+.hotelContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+
+}
+ .hotelWrapper{ 
+    max-width: 1230px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   
+    
+
+} 
+
+.slider{
+position: sticky;
+top: 0;
+left: 0;
+height: 100vh;
+width: 100%;
+}
+
+.sliderWrapper{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+justify-content: center;
+    align-items: center;
+}
+
+.closeIcon{
+    position: absolute;
+    top: -25px;
+    right: 170px;
+    background-color: #ffffff76;
+    height: 6%;
+    width: 3%;
+    border-radius: 50%;
+    z-index: 10;
+}
+.hotelDiatance{
+    color: rgb(0, 115, 255);
+}
+
+.hotelPriceHighLight{
+    color: rgb(15, 104, 6);
+}
+.hotelDetails{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.hotelImages{
+    display: flex;
+    flex-wrap: wrap;
+gap: 20px;   
+}
+
+.hotelImgWrapper{
+    width: 32.2%;
+    object-fit: cover;
+
+    flex-wrap: wrap;
+    margin-bottom: 8px;
+}
+
+.hotelDetailsTexts{
+    flex: 3;
+}
+
+.hotelDetailsPrice{
+    flex: 1;
+    background-color: #ebf3ff;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+
+.hotelTitle{
+font-family: Georgia, 'Times New Roman', Times, serif;
+margin-bottom: 10px;
+}
+
+.hotelDetailsPrice>h1{
+    font-size: 20px;
+
+}
+.hotelDetailsPrice>span{
+    font-size: 16px;
+    
+}
+
+.hotelDetailsPrice>h2{
+    font-weight: 300;
+    
+}
+
+.hotelDetailsPrice>button{
+border:none;
+padding: 10px; 
+background-color: chocolate;
+color: white;
+font-weight: bold;
+cursor: pointer;
+border-radius: 10px;   
+}
+
+.arrowRight{
+position: absolute;
+right: 40px;
+top: 50%;
+height: 6%;
+width: 3%;
+border-radius: 50%;
+color: lightgray;
+}
+
+.arrowRighta{
+position: absolute;
+left: 40px;
+top: 50%;
+height: 6%;
+width: 3%;
+border-radius: 50%;
+color: lightgray;
+}
+
+.leftIcon{
+    position: absolute;
+    top: 50%;
+}
+
+
+@media screen and (max-width:700px){
+
+    .hotelDetails{
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    .hotelDetailsPrice{
+        margin-top: 30px;
+    }
+.hotelImages {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-evenly;
+  align-content: space-evenly;
+  margin-top: 30px;
+}
+
+
+.hotelWrapper {
+  max-width: 1230px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+}

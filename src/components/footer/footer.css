@@ -1,0 +1,47 @@
+.footer{
+width: 100%;
+max-width: 1230px;
+font-size: 16px;
+
+
+}
+
+.fLists{
+    width: 100%;
+    display: flex;
+    max-width: 1230px;
+    justify-content: space-evenly;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    align-content: center;
+}
+
+
+
+.list{
+    list-style: none;
+    padding: 0%;
+    width: 200px;
+    margin-top: 50px;
+
+    
+}
+
+.fListItem{
+    margin-bottom: 10px;
+
+} 
+
+
+/* @media screen and (max-width:995px){
+    .fLists{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+
+
+    
+
+} */
